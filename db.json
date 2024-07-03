@@ -1,0 +1,32 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "title" : "FakeAPI",
+    "version" : "1.0.0"
+  },
+  "servers" : [ {
+    "description" : "SwaggerHub API Auto Mocking",
+    "url" : "https://virtserver.swaggerhub.com/VICTOR_35/new/1.0.0"
+  }, {
+    "url" : "https://my-json-server.typicode.com"
+  } ],
+  "paths" : {
+    "/victorVrize/mockAPI/requests/1" : {
+      "get" : {
+        "tags" : [ "default" ],
+        "summary" : "New Request",
+        "responses" : {
+          "200" : {
+            "description" : "Successful response",
+            "content" : {
+              "application/json" : { }
+            }
+          }
+        }
+      }
+    }
+  },
+  "host" : "virtserver.swaggerhub.com",
+  "basePath" : "/VICTOR_35/fakeJsonProdigy/1.0.0",
+  "schemes" : [ "https" ]
+}
